@@ -1,0 +1,8 @@
+Using it on windows will be the same but with no sh, or chmod
+Usage:
+  .Have VSC, or Pycharm installed
+  .No librairies have to be installed as it only uses random
+  .open the folder in the interpreter you are using
+  .click on REXP.py
+  .Run it and then just follow what it tells you
+  .Please note this is not an official licensed roblox product
