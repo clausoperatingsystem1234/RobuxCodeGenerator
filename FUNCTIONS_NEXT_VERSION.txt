@@ -1,0 +1,4 @@
+GOALS:
+	automated input		//will input the the codes itself
+	human characteristics	//will be slower for human-like charcater
+	more chances to get a correct code	//it will have a list of used codes and if it's used it will be eliminated

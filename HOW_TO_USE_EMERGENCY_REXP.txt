@@ -1,0 +1,9 @@
+#if you have messed around with the source code and broken something,
+#No problem the EMERGENCY_REXP.py has got you
+
+#USAGE
+	#CHANGE THE REXP.py name to something else for example REXP.py.brosip
+	#After change the EMERGENCY_REXP.py to  REXP.py and you are off to the race
+#THIS IS THE HOW TO USE
+
+
