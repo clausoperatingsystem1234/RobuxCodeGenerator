@@ -5,7 +5,7 @@ print('''	  mmmmm  mmmmmm m    m mmmmm
 	  #   "# #       #  #  #   "#
 	  #mmmm" #mmmmm   ##   #mmm#"
 	  #   "m #       m""m  #
-	  #    " #mmmmm m"  "m # MAN FUCK EXPENSIVE SHIT''')
+	  #    " #mmmmm m"  "m # Fixed''')
 
 print("CREDITS: 1")
 print("START: 2")
@@ -18,19 +18,16 @@ if user == 1:
 elif user == 2:
 	print("starting REXP")
 	def REXP():
-		userN = int(input('''How many times(the larger the better)
-					 : '''))
-		for i in range(userN):
-			firstN = rd.randint(100, 999)
-			secondN = rd.randint(100, 999)
-			ThirdN = rd.randint(1000, 9999)
-			print(f"{firstN}-{secondN}-{ThirdN}")
-		res = input("Restart?Y/N:  ")
-		if res == "Y" or "y":
-			print("restarting")
-			REXP()
-		else:
-			print("Shutting down... Thank you for  using REXP")
-			print('BYE///')
+		userN = int(input("How many Codes?"))
+		import random
+		import string
+
+		def generate_random_string(length=10):
+			chars = string.ascii_uppercase + string.digits
+			return ''.join(random.choices(chars, k=length))
+
+		# Generate 5 random strings
+		random_strings = [generate_random_string() for _ in range(userN)]
+		print(random_strings)
 
 	REXP()
